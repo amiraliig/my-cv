@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My CV</title>
+<link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+ 
+<form class="container" action="./indexcv.php" method="post">
+    <h1 class="title">Curriculum Vitae</h1>
+  <div class="top-container">
+    <div class="main-left">
+        
+    <h2 class="section-title">Contact Information</h2>
+    <div class="section-content">
+        <p><label for="fn">full name:</label> <input class="inputs" name="fullname" type="text"></p>
+        <p><label for="">addres:</label> <input class="inputs" type="location" name="addres"></p>
+        <p><label for="">phon number:</label> <input class="inputs" type="tel" name="tel"></p>
+        <p><label for="">email addres:</label> <input class="inputs" type="email" name="email"></p>
+        <p><label for="">github:</label> <input class="inputs" type="link" name="github"></p>
+    </div>
+    
+    <h2 class="section-title">about you</h2>
+    <p class="section-content">
+        <textarea placeholder="write ubute yourself" class="inputs" name="about" id="" cols="26" rows="10"></textarea>
+    </p>
+</div>
+<div class="main-right">
+    <h2 class="section-title">Work Experience</h2>
+    <ul class="section-content">
+      <li>
+        <strong><input class="inputs" type="text" placeholder=" company name" name="company"></strong>
+        <br> 
+        <em><input class="inputs" type="text" placeholder=" job title" name="nameTitle"></em>
+        <br> 
+        <em><input class="inputs" type="date" name="date"></em>
+        <br> 
+        <input class="inputs" type="text" placeholder="Description of responsibilities and achievements." name="describ">
+      </li>
+      
+    </ul>
+    <ul class="section-content">
+      <li>
+        <strong><input class="inputs" type="text" placeholder=" uni name" name="uniname"></strong>
+        <br> 
+        <em><input class="inputs" type="text" placeholder=" Grade" name="grade"></em>
+        <br> 
+        
+        <input class="inputs" type="text" placeholder=" honors and awards" name="honor">
+      </li>
+      
+    </ul>
+</div>
+    </div>
+    <div class="middle-container">
+        <div class="main-left">
+    <h2 class="section-title">Skills</h2>
+    <p>please write your skills</p>
+    <input type="text" name="item1" placeholder="your skill" class="inpute-style">
+    <input type="text" name="item2" placeholder="your skill" class="inpute-style">
+    <input type="text" name="item3" placeholder="your skill" class="inpute-style">
+    <input type="text" name="item4" placeholder="your skill" class="inpute-style">
+    <input type="text" name="item5" placeholder="your skill" class="inpute-style">
+    <input type="text" name="item6" placeholder="your skill" class="inpute-style">
+
+   
+</div>
+<div class="main-right">
+    <h2 class="section-title"> eduction</h2>
+      <p>Please enter your education</p>
+        <input type="text" placeholder="certifications" class="input-eduction inpute-style" name="certifications">
+        <input type="text" placeholder="univercity" class="input-eduction inpute-style" name="univercity">
+        <input type="text" placeholder="year" class="input-eduction inpute-style" name="uniname">
+    
+    <h2 class="section-title">References</h2>
+<p class="section-content">
+  <p>Please enter your References</p>
+  <input type="text" placeholder="boos" class="boos copany" name="boos">
+  <input type="text" placeholder="compony name" class="input-eduction" name="company">
+  <input type="text" placeholder="year" class="input-eduction" name="yearcopmany">
+
+
+</p>
+</div>
+</div>
+    <input type="submit" class="submit" value="submit my CV">
+
+</form>
+<script src="darkmode.js"></script>
+</body>
+</html>

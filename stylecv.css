@@ -1,0 +1,163 @@
+:root{
+    --main-bg-color-1: #1F1F1F;
+    --main-bg-color-2: #ffffff;
+    --main-color-1:#ffffff;
+    --main-color-2:#1F1F1F;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(./white-cloud-blue-sky_74190-2381.avif);
+}
+header{
+    display: flex;
+}
+.main{
+width: 55%;
+margin: 0;
+box-sizing: border-box;
+padding: 20px;
+opacity: 1;
+}
+.container{
+    box-shadow: 0px 0px 10px 5px #888888;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.container .left-main{
+width: 40%;
+background-color: var(--main-bg-color-1);
+color: var(--main-color-1);
+}
+
+.container .left-main img{
+width: 100%;
+
+
+}
+
+.container .left-main .eduction .eduction-title{
+border-bottom: solid 3px #FECB00;
+font-size: 1.5em;
+margin-left: 10px;
+}
+.container .left-main .eduction .eduction-container{
+margin: 20px 20px;
+}
+
+.left-main .eduction .eduction-container .major h2{
+    font-size: 1em;
+}
+
+.container .left-main .contact > h3{
+   background-color: #FECB00;
+   
+   margin: .5em 0;
+}
+.container .left-main .contact > p{
+    margin: .5em 0;
+}
+.container .right-main{
+background-color: var(--main-bg-color-2);
+color: var(--main-color-2);
+width: 60%;
+}
+.container .right-main .name-title{
+    background-color: #FECB00;
+    padding: 20px;
+    margin: 1.5em 0;
+    color: #1F1F1F;
+}
+.container .right-main .name-title span{
+    font-size: .5em;
+    font-weight: 100;
+    display: block;
+}
+.container .right-main .about-me{
+    margin: 20px 20px;
+}
+.container .right-main .about-me h3{
+    border-bottom:1px solid var(--main-bg-color-1);
+}
+.container .right-main .about-me p :hover{
+    background-color: #FECB00;
+}
+.workexperienc{
+    margin: 20px 20px;
+}
+.workexperienc .workexperienc-t{
+    border-bottom: 1px solid black;
+}
+.container .right-main .expeience-container{
+width: 100%;
+font-weight: 300;
+}
+.expeience-container{
+display: block;
+}
+
+.container .right-main h3{
+   
+    
+}
+.expeience-container .item{
+display: flex;
+width: 100%;
+margin-top: 20px;
+
+}
+.expeience-container .item .left{
+width: 30%;
+font-weight: 400;
+}
+.expeience-container .item .right{
+    width: 70%;
+
+} .skills-container{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.skills{
+    margin: 20px 20px;
+}
+.skills-container .left{
+    
+    color: #1F1F1F;
+}
+.skills h2{
+    border-bottom:1px solid var(--main-bg-color-1);
+   
+}
+.dark-mode{
+   padding: 10px 10px;
+   border-radius: 100px;
+}
+header{
+    align-self: flex-start;
+    margin: 20px ;
+    
+}
+.dark{
+background-color: var(--main-bg-color-1);
+background-image:url(./563119.jpg);
+background-size: cover;
+}
+.expeience-container h1, h2, h3, h4, h5 {
+    border: 0;
+    margin: 10px 0;
+    }
+    .span{
+       font-weight: bold; 
+       border-bottom: .5px solid black;
+    }
+    .company-name{
+        border: none;
+    }
+
